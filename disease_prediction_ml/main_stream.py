@@ -92,7 +92,7 @@ class DiseasePredict:
         return predictions
 
 if __name__ == "__main__":
-    st.title('🌟 Disease Predictor 🌟')
+    st.title('Disease Predictor')
     st.markdown("""
     ## Welcome to the Disease Prediction Application!
     Please enter your symptoms below, separated by commas (e.g., Itching, Skin Rash).
@@ -131,4 +131,4 @@ if __name__ == "__main__":
                 st.write(f"🔹 SVM Prediction: {predictions['svm_model_prediction']}")
                 st.write(f"🔹 **Final Prediction**: {predictions['final_prediction']}")
         else:
-            st.warning("⚠️ Please enter some symptoms.")
+            st.warning("Please enter some symptoms.")
